@@ -1,0 +1,14 @@
+---
+card1:
+  name: "AWS 1"
+  techStack:
+    - API Gateway
+    - API Application Firewall
+    - Dynamo DB
+    - SNS
+    - Lambda
+    - Simple Storage
+    - Angular
+  cost: "100 Euros"
+  scenario: "Architecture Summary: This architecture utilizes various AWS services to create a robust system for serving a static web page with Angular UI. The key services used include AWS API Gateway, Firewall, Amazon S3, Lambda Function, Amazon SNS, and DynamoDB. AWS API Gateway acts as the entry point for the architecture, enabling secure and scalable access to the systems APIs. The Firewall service ensures an additional layer of security, protecting the system against potential threats. Amazon S3 is utilized to store and serve the static web page, providing a reliable and scalable solution for hosting static content. The Lambda Function is employed for executing serverless code and handling dynamic functionality within the architecture. It enables flexible and event-driven processing, allowing you to execute custom logic as per your requirements. The architecture also integrates Amazon SNS (Simple Notification Service) for efficient and reliable communication between components. SNS enables the publication and subscription of messages, providing a scalable and decoupled messaging system. DynamoDB, a NoSQL database service, is utilized for data storage and retrieval. It offers high scalability, performance, and automatic scaling capabilities, making it suitable for a variety of applications. The user interface (UI) is built using Angular, a popular framework for developing dynamic web applications. Angular provides a robust and feature-rich UI framework, enabling seamless interactions with the backend services. Overall, this architecture combines the power of AWS services to create a scalable, secure, and high-performing system for serving a static web page with dynamic functionality using Angular UI."
+  
